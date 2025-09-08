@@ -1,0 +1,12 @@
+#To activate the virtual environment: automation_venv\Scripts\activate 
+
+#Trace
+To replay the trace file: playwright show-trace artifacts/reports/.../trace.zip
+(changes in pytest.ini)
+
+#Alure
+(
+    pip install allure-pytest
+    npm install -g allure-commandline
+)
+To generate the HTML dashboard after running compile.py: allure serve artifacts/allure-results

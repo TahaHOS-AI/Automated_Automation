@@ -1,0 +1,9 @@
+playwright 
+pytest 
+pytest-playwright 
+langgraph
+allure-pytest
+langchain
+langchain-community
+ollama
+langchain-ollama

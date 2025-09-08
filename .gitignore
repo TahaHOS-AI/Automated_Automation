@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+env/
+automation_venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs & Reports
+*.log
+artifacts/
+reports/
+allure-results/
+allure-report/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.bak
+*.tmp
