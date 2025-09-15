@@ -6,3 +6,6 @@ class State(TypedDict, total=False):
     script_path: str
     script_code: str
     result: Dict[str, Any]
+    demonstrate: bool
+    credentials: Dict[str, str]
+    recorded_code: str

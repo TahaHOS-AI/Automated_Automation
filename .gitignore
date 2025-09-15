@@ -23,10 +23,20 @@ automation_venv/
 
 # Logs & Reports
 *.log
-artifacts/
+artifacts/reports/
+artifacts/allure-results/
+artifacts/allure-report/
 reports/
 allure-results/
 allure-report/
+
+# Generated automation files - exclude all
+artifacts/executions/
+artifacts/generated/
+recorded_script.py
+automation_script.py
+screenshot_*.png
+tests/
 
 # Test cache
 .pytest_cache/
@@ -44,3 +54,12 @@ Thumbs.db
 # Misc
 *.bak
 *.tmp
+.env
+steps.txt
+commands.txt
+
+# Test results
+test-results/
+
+# Empty directories
+composer/
